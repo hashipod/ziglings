@@ -36,6 +36,7 @@ const Character = struct {
     class: Class,
     gold: u32,
     experience: u32,
+    health: u8,
 };
 
 pub fn main() void {
@@ -43,6 +44,7 @@ pub fn main() void {
     var glorp_the_wise = Character{
         .class = Class.wizard,
         .gold = 20,
+        .health = 100,
         .experience = 10,
     };
 
